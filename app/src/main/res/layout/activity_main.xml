@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.nsl.clientwifip2p.MainActivity">
+
+
+    <!--
+    <Button android:id="@+id/btnStartService"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_service"
+        android:onClick="broadcastIntent"/>
+
+
+
+
+   <Button android:id="@+id/btnStopService"
+       android:layout_toRightOf="@id/btnStartService"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_service"
+        android:onClick="stopService" />
+
+        -->
+    <TextView
+        android:id="@+id/HelloWorldTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+
+    <TextView
+        android:id="@+id/WiFiDevicesField"
+        android:layout_below="@id/HelloWorldTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="None" />
+
+
+
+</RelativeLayout>
